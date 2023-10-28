@@ -25,8 +25,8 @@ let icon = document.querySelector('#icon');
 icon.onclick =()=>{
   document.body.classList.toggle('light-theme');
   if(document.body.classList.contains('light-theme')){
-    icon.src="moon.png";
+    icon.src="Src/moon.png";
   } else{
-    icon.src="sun.png";
+    icon.src="Src/sun.png";
   }
 }
